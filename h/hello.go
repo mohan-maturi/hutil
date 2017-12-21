@@ -1,4 +1,4 @@
-package hutil
+package h
 
 import "fmt"
 
