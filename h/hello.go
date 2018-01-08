@@ -4,7 +4,7 @@ import "fmt"
 
 func PrintHello(name string) string {
 	h := "Hello " + name
-	fmt.Printf("Greeting is - %s\n", h)
+	fmt.Printf("New Greeting is - %s\n", h)
 	return h
 } 
 
