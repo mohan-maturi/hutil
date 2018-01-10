@@ -4,12 +4,12 @@
 [[projects]]
   branch = "master"
   name = "github.com/mohan-maturi/wutil"
-  packages = ["util","w"]
-  revision = "6820894728e691c783c49c246e6db0b49c7b99a3"
+  packages = [".","util"]
+  revision = "3bb6eaeb90099b838f2507ac7b96d96336a30edd"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "17b158a023f408c4ee40a9eee66af256d4d911931bd3c42cbbf053bd7f0c2d19"
+  inputs-digest = "f7716bd426c9caa1aedb32f4c91f444c70cfe4e8c1e1109464c9a88faafbc53a"
   solver-name = "gps-cdcl"
   solver-version = 1

@@ -2,7 +2,7 @@ package hutil
 
 import "fmt"
 import "github.com/mohan-maturi/hutil/util"
-import "github.com/mohan-maturi/wutil/w"
+import w "github.com/mohan-maturi/wutil"
 
 func PrintHello(name string) string {
 	return util.GetString(name)
