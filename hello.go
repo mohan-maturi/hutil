@@ -1,12 +1,11 @@
-package h
+package hutil
 
 import "fmt"
+import "github.com/mohan-maturi/hutil/util"
 import "github.com/mohan-maturi/wutil/w"
 
 func PrintHello(name string) string {
-	h := "Hello " + name
-	fmt.Printf("New Greeting is - %s\n", h)
-	return h
+	return util.GetString(name)
 } 
 
 func PrintWorld(name string) string {

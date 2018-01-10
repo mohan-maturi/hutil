@@ -1,4 +1,4 @@
-package h
+package hutil
 
 import (
 	"strings"
